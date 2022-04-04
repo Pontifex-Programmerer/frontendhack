@@ -1,0 +1,74 @@
+:root{
+    --dark-green: #253031;
+    --ocean-green: #315659;
+    --clean-blue: #2978A0;
+    --light-brown: #BCAB79;
+    --light-blue: #C6E0FF;
+}
+
+body {
+    background-color: var(--dark-green);
+    color:  var(--dark-green);
+}
+
+header {
+    background-color: var(--light-blue);
+    color: var(--dark-green);
+    font-size: 2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.5em 2em;
+    text-align: center;
+}
+
+footer {
+    color: var(--light-blue);
+    text-align: center;
+}
+
+form {
+    background-color: var(--clean-blue);
+    margin: 5em auto;
+    font-size: 1.5em;
+    width: fit-content;
+    padding: 1em 2em;
+    text-align: center;
+}
+
+form input {
+    border-radius: 2em;
+    border: none;
+    color: var(--clean-blue);
+    display: block;
+    font-size: inherit;
+    margin: 0.5em 0.5em;
+    text-align: center;
+    outline-color: var(--light-brown);
+}
+
+form button {
+    background-color: var(--light-brown);
+    border-style: solid;
+    border-color: var(--light-blue);
+    color: var(--dark-green);
+    font-size: inherit;
+    width: 90%;
+}
+
+.message{
+    background-color: var(--light-brown);
+    border: solid 10px var(--clean-blue);
+    color: var(--dark-green);
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.success{
+    background-color: greenyellow;
+    color: blue;
+    margin: 10em auto;
+    padding: 1em 2em;
+    text-align: center;
+    width: 50%;
+}

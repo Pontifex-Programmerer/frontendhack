@@ -1,0 +1,29 @@
+{
+  "name": "frontendhack",
+  "version": "1.0.0",
+  "description": "Page with simple login and a page that can only be viewed for anyone with a password, or capable penetratin testers...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pontifex-Programmerer/frontendhack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pontifex-Programmerer/frontendhack/issues"
+  },
+  "homepage": "https://github.com/Pontifex-Programmerer/frontendhack#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.9",
+    "passport": "^0.5.2",
+    "passport-local-mongoose": "^7.0.0"
+  }
+}
